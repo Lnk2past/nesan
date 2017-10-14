@@ -13,6 +13,8 @@
 #include <type_traits>
 #include <vector>
 
+namespace nesan
+{
 template <typename T>
 bool printVector(std::ostream &stream, const std::vector<T> &vec)
 {
@@ -69,4 +71,4 @@ bool makeRandomVector(const size_t n, const T min, const T max, std::vector<T> &
 
    return true;
 }
-
+}

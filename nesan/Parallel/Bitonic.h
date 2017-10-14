@@ -10,6 +10,8 @@
 #include <thread>
 #include <vector>
 
+namespace nesan
+{
 template <typename T>
 void bitonicSplit(const std::vector<T> &data, std::vector<T> &min, std::vector<T> &max)
 {
@@ -52,4 +54,5 @@ std::vector<T> bitonicMerge(const std::vector<T> data)
       return a;
    }
    return data;
+}
 }
